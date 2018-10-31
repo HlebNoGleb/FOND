@@ -1,3 +1,14 @@
+@font-face{
+font-family: 'AvantGarde';
+src: url('../fonts/ofont.ru_AvantGarde.ttf') format('opentype');
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+font-family: 'Intro';
+src: url('../fonts/ofont.ru_Intro.ttf') format('opentype');
+font-weight: 700;
+}
 body{
 	font-family: 'AvantGarde';
 	background-image: url(../img/bg.png);
@@ -252,7 +263,7 @@ li, a {
 	font-size: 44px;
 	color: #114194;
 	font-family: 'Intro';
-	font-weight: 100;
+	font-weight: 700;
 	text-align: center;
 	line-height: 25px!important;
 }
