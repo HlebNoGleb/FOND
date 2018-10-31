@@ -6,7 +6,7 @@ font-style: normal;
 }
 @font-face{
 font-family: 'Intro';
-src: url('../fonts/ofont.ru_Intro.ttf') format('opentype');
+src: url('../fonts/INTRO.otf') format('opentype');
 font-weight: 700;
 }
 body{
