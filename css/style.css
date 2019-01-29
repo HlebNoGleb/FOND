@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+
 }
 @font-face{
 font-family: 'AvantGarde';
@@ -11,18 +12,42 @@ font-family: 'Intro';
 src: url('../fonts/INTRO.otf') format('opentype');
 font-weight: 700;
 }
-.blue_span{
+/*.blue_span{
  color: #114194;
 }
 .red_span{
  color: #e20614;
+}*/
+.bold{
+	font-weight: 700;
+	text-transform: uppercase;
 }
-
 .near p{
 	word-wrap: break-word;
 }
+.quote{
+	/*position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	text-align: center;*/
+	padding: 100px 0;
+}
+	.first{
+	height: 100vh;
+	padding: 0 0 80px 0;
+}
+header{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	text-align: center;
+}
 .red{
-	color: #e20614;
+	/*color: #e20614;*/
 }
 footer{
 	padding: 20px 0;
@@ -34,6 +59,7 @@ body{
 	-webkit-background-size: cover;
 	background-size: cover;
 	overflow-x: hidden;
+
 }
 header{
 }
@@ -55,8 +81,8 @@ h1{
      background-color: rgba(0,0,0,0);
 }
 p{
-	font-size: 20px;
-	color: white;
+	font-size: 24px;
+	color: #114194;
 }
 .container{
 	max-width: 1200px;
@@ -94,7 +120,7 @@ img svg path{
 .logo__top {
 	margin: auto;
 	text-align: center;
-	padding: 40px;
+	padding: 40px 0;
 }
 .try .menu__link{
 	padding:  20px 0 0 0;
@@ -226,7 +252,7 @@ li, a {
 	margin: auto;
 }
 .adv p{
-	color: black;
+	color: #114194;
 }
 .big{
 	font-size: 44px;
@@ -242,7 +268,7 @@ li, a {
 }*/
 .near p{
 	margin: 0;
-	color: black;
+	color: #114194;
 }
 @media only screen and (max-width: 1279px) {
 	
@@ -285,10 +311,7 @@ li, a {
 
 }
 @media only screen and (min-width: 767px) {
-	.first{
-	/*height: 100vh;*/
-	padding: 0 0 80px 0;
-}
+
 	.menu__phone{
 		display: none;
 	}
@@ -330,9 +353,6 @@ li, a {
 	}
 	.container{
 		width: 95%;
-	}
-	.first{
-		height: auto;
 	}
 	
 
